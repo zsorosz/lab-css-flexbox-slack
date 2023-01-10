@@ -38,7 +38,7 @@ nav ul {
 .nav-btns {
     display: flex;
     gap: 20px;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .nav-btns button {
@@ -78,10 +78,11 @@ header p span {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 .btn-ctn button {
-    width: 80%;
+    width: 90%;
     height: 50px;
     border: none;
     border-radius: 5px;
@@ -96,13 +97,53 @@ header p span {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #4285F4;
+    position: relative;
 }
 
 .google-logo {
     width: 50px;
-    display: inline;
-    justify-self: flex-start;
-    
+    background-color: white;
+    position: absolute;
+    left: 0;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.signup-google-btn span {
+    color: white;
+}
+
+main {
+   background-color: #F3EAE2; 
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.companies p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.logo-ctn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 200px;
+    margin: 3rem;
+}
+
+.logo-ctn img {
+    /* max-width: 50%; */
+    height: 50px;
 }
 
 img {
