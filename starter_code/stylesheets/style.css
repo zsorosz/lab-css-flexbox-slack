@@ -114,6 +114,9 @@ header p span {
     color: white;
 }
 
+.hero-img {
+    width: 100vw;
+}
 main {
    background-color: #F3EAE2; 
 }
@@ -146,6 +149,31 @@ main section {
     height: 50px;
 }
 
+.info img {
+    width: 100%;
+    margin: 0;
+}
+
+.info h2 {
+    color: #191817;
+    margin: 2rem;
+}
+
+.info p {
+    margin: 0 2rem 2rem;
+    line-height: 1.5;
+}
+
+.info a {
+    margin: 2rem;
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+.info2 {
+    flex-direction: column-reverse;
+}
+
 img {
-    max-width: 500px;
+    /* max-width: 500px; */
 }
