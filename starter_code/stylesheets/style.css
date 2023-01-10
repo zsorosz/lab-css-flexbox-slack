@@ -148,7 +148,6 @@ main section {
 }
 
 .logo-ctn img {
-    /* max-width: 50%; */
     height: 50px;
 }
 
@@ -301,4 +300,33 @@ footer img {
 .copyright {
     padding: 2rem;
     color: #454245;
+}
+
+@media (min-width: 768px) {
+    .nav-btns {
+        margin: 0;
+    }
+    header {
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
+        background-image: url(../images/background-singup.png);
+        background-size: cover;
+        padding: 2rem;
+        height: 80vh;
+    }
+    .signup-img {
+        width: 20%;
+    }
+    .hero-img {
+        width: 500px;
+    }
+    .btn-ctn {
+        align-items: flex-start;
+    }
+    .logo-ctn {
+        flex-wrap: nowrap;
+        gap: 2rem;
+        width: 100%;
+    }
 }
