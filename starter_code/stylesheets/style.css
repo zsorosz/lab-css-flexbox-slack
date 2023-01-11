@@ -353,7 +353,40 @@ footer img {
     }
     .logo-ctn {
         flex-wrap: nowrap;
-        gap: 2rem;
+        justify-content: space-around;
         width: 100%;
+    }
+    .info img {
+        width: 80%;
+    }
+    .info-text {
+        width: 60%;
+    }
+    .about-btn-ctn {
+        flex-direction: row;
+        width: 70%;
+    }
+    .talk-btn {
+        width: 50%;
+    }
+    .about ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .about li {
+        margin: 0 2rem;
+        width: 30%;
+    }
+    .about ul p {
+        text-align: left;
+    }
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    .social {
+        justify-content: flex-start;
+        gap: 5rem;
     }
 }
