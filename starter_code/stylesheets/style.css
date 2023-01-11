@@ -316,20 +316,34 @@ footer img {
 }
 
 @media (min-width: 768px) {
-    .nav-btns {
-        margin: 0;
+    nav {
+        border-bottom: .1px solid white;
+        height: 70px;
     }
     header {
         flex-direction: row;
         justify-content: flex-start;
+        align-items: flex-start;
         text-align: left;
         background-image: url(../images/background-singup.png);
         background-size: cover;
         padding: 2rem;
-        height: 80vh;
+        /* height: 80vh; */
+    }
+    header h1 {
+        font-size: 4rem;
+        width: 60%;
+        margin: 1rem 0;
+    }
+    .signup {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
     .signup-img {
         width: 20%;
+        align-self: center;
     }
     .hero-img {
         width: 500px;
