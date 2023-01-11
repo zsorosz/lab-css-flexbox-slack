@@ -89,7 +89,7 @@ button {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .btn-ctn button {
@@ -185,13 +185,14 @@ main section {
 }
 
 .about h3 {
-    font-size: 1.7rem;
-    width: 60%;
+    font-size: 1.5rem;
+    width: 70%;
+    margin-top: 3rem;
 }
 
 .about p {
     line-height: 1.5;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .about-btn-ctn {
@@ -216,7 +217,7 @@ main section {
 .about ul {
     list-style: none;
     width: 40%;
-    padding: 0;
+    padding: 2rem;
 }
 
 .about ul span {
@@ -236,6 +237,7 @@ main section {
     background-color: #540B51;
     color: white;
     padding-top: 0;
+    padding-bottom: 3rem;
 }
 
 .contact h3 {
@@ -254,23 +256,30 @@ main section {
 .sales-btn {
     color: #540B51;
 }
-
+ footer {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+ }
 footer img {
-    width: 50px;
-    margin: 2rem;
+    width: 40px;
 }
 
 .footer-top {
     display: flex;
+    justify-content: space-between;
     font-size: .8rem;
+    border-bottom: 1px solid #d1cad1;
 }
 
 .footer-top ul {
     list-style: none;
+    padding: 0;
+    width: 20%;
 }
 
 .footer-top li {
-    padding: .8rem 0;
+    padding: .7rem 0;
     color: #454245;
 }
 
@@ -280,11 +289,12 @@ footer img {
 
 .footer-bottom {
     list-style: none;
-    font-size: .8rem;
+    font-size: .7rem;
+    padding: 0;
 }
 
 .footer-bottom li {
-    padding: .8rem 0;
+    padding: .7rem 0;
     font-weight: 900;
 }
 
@@ -296,12 +306,13 @@ footer img {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 0 2rem;
+    padding: 0;
 }
 
 .copyright {
-    padding: 2rem;
-    color: #454245;
+    color: #b6b0b6;
+    font-size: .8rem;
+    margin: 1rem 0;
 }
 
 @media (min-width: 768px) {
