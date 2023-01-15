@@ -317,7 +317,6 @@ footer img {
 
 @media (min-width: 768px) {
     nav {
-        border-bottom: .1px solid white;
         height: 70px;
     }
     header {
@@ -388,5 +387,110 @@ footer img {
     .social {
         justify-content: flex-start;
         gap: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-right: 3rem;
+        list-style: none;
+    }
+    nav ul a {
+        text-decoration: none;
+        color: white;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        width: 60%;
+    }
+    .nav-btns {
+        align-items: center;
+        justify-content: flex-end;
+        /* width: 40%; */
+    }
+    .menu-btn {
+        display: none;
+        height: 0;
+    }
+    .account-btns {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 2rem;
+    }
+    .account-try-btn {
+        background-color: white;
+        padding: .5rem;
+        border-radius: 3px;
+    }
+    .account-try-btn a {
+        color:#540B51;
+        text-transform: uppercase;
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    .search-btn {
+        width: initial;
+        margin-right: 1rem;
+    }
+    .signup {
+        width: 50%;
+    }
+    header h1 {
+        font-size: 4rem;
+        width: 70%;
+        margin: 1rem 0 4rem;
+    }
+    header p {
+        font-size: 1.5rem;
+        width: 70%;
+    }
+    .logo-ctn {
+        margin: 0;
+    }
+    .info {
+        flex-direction: row;
+    }
+    .info-text {
+        width: initial;
+    }
+    .info h2 {
+        font-size: 2.5rem;
+    }
+    .about h3 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+    .about p {
+        margin: 2rem 0;
+    }
+    .about-btn-ctn {
+        width: 50%;
+    }
+    .about ul p {
+        width: 70%;
+    }
+    .contact {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .contact h3 {
+        font-size: 3rem;
+        width: 100%;
+        
+    }
+    .contact button {
+        width: 20%;
+        margin: 0 .5rem;
+    }
+    footer {
+        padding: 3rem;
     }
 }
