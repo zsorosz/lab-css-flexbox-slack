@@ -232,6 +232,11 @@ main section {
     font-weight: 600;
     margin: 0;
 }
+.about li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .contact {
     background-color: #540B51;
@@ -401,11 +406,13 @@ footer img {
     nav ul a {
         text-decoration: none;
         color: white;
+        font-size: .9rem;
     }
     .menu {
         display: flex;
         align-items: center;
         width: 60%;
+        font-size: .9rem;
     }
     .nav-btns {
         align-items: center;
@@ -450,6 +457,7 @@ footer img {
     header p {
         font-size: 1.5rem;
         width: 70%;
+        line-height: 1.5;
     }
     .logo-ctn {
         margin: 0;
@@ -492,5 +500,43 @@ footer img {
     }
     footer {
         padding: 3rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .menu {
+        width: 40%;
+    }
+    header {
+        padding: 2rem 5rem;
+        background-image: none;
+    }
+    header h1 {
+        width: 60%;
+    }
+    header p {
+        font-size: 1.2rem;
+        width: 40%;
+    }
+    .btn-ctn {
+        flex-direction: row;
+    }
+    .logo-ctn {
+        width: 80%;
+    }
+    .info {
+        gap: 10rem;
+    }
+    .info-text {
+        padding: 0 5rem;
+    }
+    .about {
+        padding: 0 5rem;
+    }
+    .about-btn-ctn {
+        width: 40%;
+    }
+    .contact button {
+        width: 15%;
     }
 }
